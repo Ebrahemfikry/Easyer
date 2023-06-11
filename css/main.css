@@ -1,0 +1,1339 @@
+:root{
+    --black-color: #000000;
+    --white-color: #fff;
+    --background-grn-yell: transparent linear-gradient(270deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box;
+    --green-color: #52B14E;
+    --gray-color: #979797;
+    --bg:#F9FAFC;
+    --gray2-color: #ebebeb;
+}
+body{
+    font-family: FF Shamel Family Sans One, book;
+}
+
+header{
+    background: url(../images/Mask\ Group\ 14.jpg) no-repeat center/cover fixed;
+    height: 100vh;
+    position: relative;
+}
+header .container nav{
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+header .container nav .logo img{
+    width: 100px;
+}
+header .container nav .btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container nav .btns .lan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container nav .btns button{
+    margin: 0 15px;
+    background: transparent;
+    border: 1px solid var(--green-color);
+    padding: 5px 10px;
+    color: #52B14E;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+header .container nav .btns p{
+    margin: 0 5px;
+    font-weight: 600;
+}
+header .container nav .btns .icon{
+    width: 50px;
+}
+
+
+header .container .landing{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header .container .landing span{
+    color: var(--green-color);
+    background: var(--gray2-color);
+    padding: 5px 15px;
+    margin: 10px 0;
+    border-radius: 20px;
+    display: inline-block;
+}
+header .container .landing h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 32px/56px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal bold 32px/56px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+header .container .landing p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/34px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-979797);
+    text-align: center;
+    font: normal normal normal 16px/34px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #979797;
+    opacity: 1;
+}
+header .container .landing .btn{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-52b14e);
+    text-align: right;
+    font: normal normal bold 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #52B14E;
+    opacity: 1;
+    border: 1px solid var(--unnamed-color-52b14e);
+    border: 1px solid #52B14E;
+    border-radius: 8px;
+    margin: 10px 5px;
+}
+header .container .landing .btn1{
+    background: transparent linear-gradient(270deg, var(--unnamed-color-52b14e) 0%, var(--unnamed-color-b9d02e) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    color: var(--white-color);
+}
+@media only screen and (max-width: 600px) {
+    header .container .landing{
+        width: 100%;
+        top: 60%;
+    }
+    header .container .landing h2{
+        font-size: 30px;
+    }
+    header .container .landing p{
+        font-size: 16px;
+    }
+    header .container nav .btns .lan{
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    header .container .landing{
+        width: 100%;
+        top: 50%;
+    }
+    header .container .landing h2{
+        font-size: 30px;
+    }
+    header .container .landing p{
+        font-size: 16px;
+    }
+    header .container nav .btns .lan{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    header .container .landing{
+        width: auto;
+        top: 50%;
+    }
+    header .container .landing h2{
+        font-size: 30px;
+    }
+    header .container .landing p{
+        font-size: 16px;
+    }
+    header .container nav .btns .lan{
+        display: flex;
+    }
+}
+@media only screen and (min-width: 992px) {
+    header .container .landing{
+        width: auto;
+        top: 50%;
+    }
+    header .container .landing h2{
+        font-size: 30px;
+    }
+    header .container .landing p{
+        font-size: 16px;
+    }
+    header .container nav .btns .lan{
+        display: flex;
+    }
+}
+/* end header  */
+
+/* start easy */
+.easy{
+    margin: 70px 0;
+    height: 80vh;
+    overflow-x: hidden;
+    position: relative;
+}
+.easy .container{
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    left: 230px;
+    top: 0;
+}
+.easy .container .box{
+    width: 50%;
+    position: relative;
+}
+.easy .container .box img{
+    width: 656px;
+    height: 500px;  
+}
+.easy .container .box2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 46px #A7A7A729;
+    padding: 30px;
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    transform: translatey(-50%);
+}
+.easy .container .box2 span{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-52b14e);
+    text-align: right;
+    font: normal normal bold 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #52B14E;
+    opacity: 1;
+    margin: 0 20px;
+}
+.easy .container .box2 h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 40px/56px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: right;
+    font: normal normal bold 40px/56px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    margin: 0 20px;
+}
+.easy .container .box2 h2::before{
+    content: "";
+    position: absolute;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-52b14e) 0%, var(--unnamed-color-b9d02e) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    width: 5px;
+    height: 130px;
+    right: -20px;
+    top: -30px;
+}
+.easy .container .box2 p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/34px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-979797);
+    text-align: right;
+    font: normal normal normal 16px/34px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #979797;
+    opacity: 1; 
+}
+.easy .container .box2 button{
+    background: transparent linear-gradient(270deg, var(--unnamed-color-52b14e) 0%, var(--unnamed-color-b9d02e) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal bold 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: 0;
+    padding: 5px 10px;
+}
+@media only screen and (max-width: 600px) {
+    .easy{
+        height: 100vh;
+        overflow: hidden;
+    }
+    .easy .container{
+        top: 0;
+    }
+    .easy .container .box{
+        width: 100%;
+        position: relative;
+    }
+    .easy .container .box img{
+        display: none;  
+    }
+    .easy .container .box2{
+        position: absolute;
+        left: -60%;
+        top: 50%;
+        transform: translatey(0%);
+    }
+}
+@media only screen and (min-width: 600px) {
+    .easy{
+        height: 80vh;
+        overflow: hidden;
+    }
+    .easy .container{
+        top: 0;
+    }
+    .easy .container .box{
+        width: 100%;
+        position: relative;
+    }
+    .easy .container .box img{
+        display: none;  
+    }
+    .easy .container .box2{
+        position: absolute;
+        left: -36%;
+        top: 50%;
+        transform: translatey(0%);
+    }
+}
+@media only screen and (min-width: 768px) {
+    .easy{
+        margin: 70px 0;
+        height: 100vh;
+        overflow-x: hidden;
+        position: relative;
+    }
+    .easy .container .box img{
+        display: block;  
+    }
+    .easy .container{
+        direction: rtl;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        left: 230px;
+        top: 0;
+    }
+    .easy .container .box{
+        width: 50%;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .easy{
+        margin: 70px 0;
+        height: 100vh;
+        overflow-x: hidden;
+        position: relative;
+    }
+    .easy .container .box img{
+        display: block;  
+    }
+    .easy .container{
+        direction: rtl;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        left: 230px;
+        top: 0;
+    }
+    .easy .container .box{
+        width: 50%;
+        position: relative;
+    }
+    .easy .container .box2{
+        position: absolute;
+        left: -190px;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .easy{
+        margin: 70px 0;
+        height: 100vh;
+        overflow-x: hidden;
+        position: relative;
+    }
+    .easy .container .box img{
+        display: block;  
+    }
+    .easy .container{
+        direction: rtl;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        left: 230px;
+        top: 0;
+    }
+    .easy .container .box{
+        width: 50%;
+        position: relative;
+    }
+    .easy .container .box2{
+        position: absolute;
+        left: -100px;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+}
+
+
+
+/* start what  */
+.what{
+    margin: 70px 0;
+}
+.what .container .box2 span{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-52b14e);
+    display: block;
+    text-align: right;
+    font: normal normal bold 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #52B14E;
+    opacity: 1;
+    margin: 0 20px;
+}
+.what .container .box2 h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 40px/56px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: right;
+    font: normal normal bold 40px/56px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    margin: 0 20px;
+}
+.what .container .box2 h2::before{
+    content: "";
+    position: absolute;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-52b14e) 0%, var(--unnamed-color-b9d02e) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    width: 5px;
+    height: 130px;
+    right: -20px;
+    top: -30px;
+}
+
+.what .content{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.what .content .box{
+    width: calc(29%);
+}
+.what .content .box img{
+    margin: 0 0 20px 0;
+}
+.what .content .box h4{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    font: normal normal bold 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.what .content .box p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-979797);
+    font: normal normal normal 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #979797;
+    opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+    .what .content{
+        flex-direction: column;
+    }
+    .what .content .box{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .what .content{
+        flex-direction: column;
+    }
+    .what .content .box{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .what .content{
+        flex-direction: row;
+    }
+    .what .content .box{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .what .content{
+        flex-direction: row;
+    }
+    .what .content .box{
+        width: 30%;
+    }
+}
+
+/* end what  */
+
+
+/* start what 2 */
+.what2{
+    margin: 70px 0;
+    height: 80vh;
+    position: relative;
+}
+.what2 .container .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.what2 .container .box{
+    width: 50%;
+    position: relative;
+}
+.what2 .container .box2 span{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-52b14e);
+    display: block;
+    text-align: right;
+    font: normal normal bold 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #52B14E;
+    opacity: 1;
+    margin: 0 20px;
+}
+.what2 .container .box2 h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 40px/56px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: right;
+    font: normal normal bold 40px/56px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    margin: 0 20px;
+}
+.what2 .container .box2 h2::before{
+    content: "";
+    position: absolute;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-52b14e) 0%, var(--unnamed-color-b9d02e) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    width: 5px;
+    height: 130px;
+    right: -20px;
+    top: -30px;
+}
+.what2 .container .content{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+.what2 .container .content .box{
+    width: 29%;
+    position: relative;
+}
+.what2 .content .box span{
+    padding: 3px 20px 0 ;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #F0F8ED 0% 0% no-repeat padding-box;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 24px/45px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-52b14e);
+    text-align: right;
+    font: normal normal bold 24px/45px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #52B14E;
+    opacity: 1;
+}
+.what2 .content .box h4{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    font: normal normal bold 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.what2 .content .box p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-979797);
+    font: normal normal normal 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #979797;
+    opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+    .what2{
+        margin: 50px 0 1000px 0;
+    }
+    .what2 .container .info{
+        flex-direction: column;
+        text-align: center;
+    }
+    .what2 .container .box{
+        width: 100%;
+        position: relative;
+        margin: 30px 0;
+    }
+    .what2 .container .content{
+        flex-direction: column;
+    }
+    .what2 .container .content .box{
+        width: 100%;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .what2{
+        margin: 50px 0 1000px 0;
+    }
+    .what2 .container .info{
+        flex-direction: column;
+        text-align: center;
+    }
+    .what2 .container .box{
+        width: 100%;
+        position: relative;
+        margin: 30px 0;
+    }
+    .what2 .container .content{
+        flex-direction: column;
+    }
+    .what2 .container .content .box{
+        width: 100%;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .what2{
+        margin: 50px 0 400px 0;
+    }
+    .what2 .container .info{
+        flex-direction: row;
+    }
+    .what2 .container .box{
+        width: 50%;
+        position: relative;
+        margin: 30px 0;
+    }
+    .what2 .container .content{
+        flex-direction: row;
+        flex-flow: row wrap;
+    }
+    .what2 .container .content .box{
+        width: 30%;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .what2{
+        margin: 50px 0 400px 0;
+    }
+    .what2 .container .info{
+        flex-direction: row;
+    }
+    .what2 .container .box{
+        width: 50%;
+        position: relative;
+        margin: 30px 0;
+    }
+    .what2 .container .content{
+        flex-direction: row;
+        flex-flow: row wrap;
+    }
+    .what2 .container .content .box{
+        width: 30%;
+        position: relative;
+    }
+}
+/* end what 2 */
+
+/* start best */
+.best{
+    margin: 200px 0 100px;
+    background: #F9FAFC;
+    padding: 50px 0;
+}
+.best .container{
+    text-align: center;
+}
+.best .container h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 48px/56px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font: normal normal bold 48px/56px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.best .container h2 span{
+    color: #52B14E;
+}
+.best .container .content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.best .container .content .box{
+    width: 30%;
+}
+.best .container .content .box img{
+    width: 40px;
+    margin: 20px 0;
+}
+.best .container .content .box h4{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal bold 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+    .best .container .content{
+        flex-direction: column;
+    }
+    .best .container .content .box{
+        width: 100%;
+        margin: 50px 0;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .best .container .content{
+        flex-direction: column;
+    }
+    .best .container .content .box{
+        width: 100%;
+        margin: 50px 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .best .container .content{
+        flex-direction: row;
+    }
+    .best .container .content .box{
+        width: 29%;
+        margin: 30px 10px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .best .container .content{
+        flex-direction: row;
+    }
+    .best .container .content .box{
+        width: 29%;
+        margin: 30px 10px;
+    }
+}
+/* end best */
+
+/* start opportunity */
+.opportunity{
+    margin: 70px 0;
+}
+.opportunity .container{
+    text-align: center;
+}
+.opportunity .container h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 48px/56px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font: normal normal bold 48px/56px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin:0 0 40px 0;
+}
+.opportunity .container h2 span{
+    color: #52B14E;
+}
+.opportunity .container .content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-flow: row wrap;
+    direction: rtl;
+}
+.opportunity .container .content .box{
+    width: 30%;
+    direction: rtl;
+    /* height: 200px; */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 50px #0000000D;
+    padding: 20px;
+    border-radius: 10px;
+}
+.opportunity .container .content .box h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 24px/72px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: right;
+    font: normal normal bold 24px/72px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 0;
+}
+.opportunity .container .content .box p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/54px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: right;
+    font: normal normal bold 16px/54px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.opportunity .container .content .box h3{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 24px/72px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-52b14e);
+    text-align: right;
+    font: normal normal bold 24px/72px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #52B14E;
+    opacity: 1;
+}
+.opportunity .container .yield div{
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.opportunity .container .yield div p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/72px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-979797);
+    text-align: right;
+    font: normal normal normal 16px/72px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #979797;
+    opacity: 1;
+}
+.opportunity .container .btn{
+    background: transparent linear-gradient(270deg, var(--unnamed-color-52b14e) 0%, var(--unnamed-color-b9d02e) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    padding: 8px 15px;
+    color:#fff;
+}
+.opportunity .container .btn1{
+    background: var(--bg) 0% 0% no-repeat padding-box;
+    background: #F9FAFC 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    border: 0;
+    padding: 8px 15px;
+}
+@media only screen and (max-width: 600px) {
+    .opportunity .container .content{
+        flex-direction: column;
+    }
+    .opportunity .container .content .box{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .opportunity .container .content{
+        flex-direction: column;
+    }
+    .opportunity .container .content .box{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .opportunity .container .content{
+        flex-direction: row;
+    }
+    .opportunity .container .content .box{
+        width: 47%;
+        margin: 30px 10px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .opportunity .container .content{
+        flex-direction: row;
+    }
+    .opportunity .container .content .box{
+        width: 30%;
+        margin: 30px 10px;
+    }
+}
+/* end opportunity */
+
+/* start card  */
+.cards{
+    padding:0 0 70px 0;
+}
+.cards .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards .container .box{
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+    padding: 30px;
+    background: var(--bg) 0% 0% no-repeat padding-box;
+    border-radius :20px;
+}
+.cards .container .box img{
+    width: 100%;
+    height: 400px;
+    border-radius :20px;
+}
+.cards .container .box h3{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 24px/72px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    font: normal normal bold 24px/72px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 10px 0;
+}
+.cards .container .box p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font: normal normal normal 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+    .cards .container{
+        flex-direction: column;
+    }
+    .cards .container .box{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .cards .container{
+        flex-direction: column;
+    }
+    .cards .container .box{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .cards .container{
+        flex-direction: row;
+    }
+    .cards .container .box{
+        width: 50%;
+        margin: 0 10px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .cards .container{
+        flex-direction: row;
+    }
+    .cards .container .box{
+        width: 50%;
+        margin: 0 10px;
+    }
+}
+/* end card  */
+
+
+/* start contact */
+.contact{
+    margin: 70px 0;
+    background:url(../images/Mask\ Group\ 12.jpg) no-repeat center/cover;
+    padding: 50px 0;
+}
+.contact .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .container .box{
+    width: 50%;
+    padding: 20px;
+    direction: rtl;
+    border-radius: 20px;
+    margin: 20px;
+    /* height: 650px; */
+    position: relative;
+}
+.contact .container .box1{
+    width: 50%;
+    padding: 20px;
+    direction: rtl;
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    height: 650px;
+    position: relative;
+}
+.contact .container .box form .name-phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .container .box form fieldset label{
+    display: block;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/72px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-979797);
+    text-align: right;
+    font: normal normal normal 16px/72px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #979797;
+    opacity: 1;
+    margin: 0;
+}
+.contact .container .box form .name-phone fieldset{
+    width: 49%;
+}
+.contact .container .box form fieldset{
+    width: 100%;
+    /* margin: 10px 0; */
+}
+.contact .container .box form fieldset input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+.contact .container .box form fieldset input[type="submit"]{
+    background: transparent linear-gradient(270deg, var(--unnamed-color-52b14e) 0%, var(--unnamed-color-b9d02e) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    margin-top: 20px;
+    color: #fff;
+}
+.contact .container .box h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 48px/72px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: right;
+    font: normal normal bold 48px/72px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.contact .container .box h2 span{
+    color: #52B14E;
+    display: block;
+}
+.contact .container .box div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+.contact .container .box div p{
+    margin: 0 15px;
+}
+.contact .container .box h4{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/31px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: right;
+    font: normal normal bold 16px/31px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 20px 30px;
+}
+.contact .container .box2::before{
+    content:"";
+    position: absolute;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-52b14e) 0%, var(--unnamed-color-b9d02e) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    height: 100%;
+    width: 5px;
+    right: -20px;
+    top: -10px;
+}
+@media only screen and (max-width: 600px) {
+    .contact .container{
+        flex-direction: column;
+    }
+    .contact .container .box{
+        width: 100%;
+    }
+    .contact .container .box2::before{
+        right: -5px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .contact .container{
+        flex-direction: column;
+    }
+    .contact .container .box{
+        width: 100%;
+    }
+    .contact .container .box2::before{
+        right: -5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .contact .container{
+        flex-direction: row;
+    }
+    .contact .container .box{
+        width: 50%;
+    }
+    .contact .container .box2::before{
+        right: -10px;
+    }
+    
+}
+@media only screen and (min-width: 992px) {
+    .contact .container{
+        flex-direction: row;
+    }
+    .contact .container .box{
+        width: 50%;
+    }
+    .contact .container .box2::before{
+        right: -20px;
+    }
+}
+/* end contact */
+
+
+/* start sub */
+.sub{
+    padding: 70px 0;
+    background: transparent linear-gradient(271deg, var(--unnamed-color-52b14e) 0%, var(--unnamed-color-b9d02e) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(271deg, #52B14E 0%, #B9D02E 100%) 0% 0% no-repeat padding-box   ;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.sub h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 32px/72px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    font: normal normal bold 32px/72px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.sub p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/72px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-f2f2f2);
+    font: normal normal normal 16px/72px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #F2F2F2;
+    opacity: 1;
+    margin: 0;
+}
+.sub input{
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    width: 50%;
+    margin: auto;
+    padding: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    direction: rtl;
+}
+.sub .cir{
+    border-radius: 50%;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 30px solid;
+    border-color: rgba(177, 238, 21, 0.63);
+    background: transparent;
+    top: 50px;
+    left: -100px;
+}
+@media only screen and (max-width: 600px) {
+    .sub input{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .sub input{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .sub input{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .sub input{
+        width: 60%;
+    }
+}
+/* end sub */
+
+footer{
+    background: #000;
+    padding: 50px 0 10px 0;
+}
+footer .container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+}
+footer .container nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+footer .container nav ul li{
+    margin: 0 25px;
+}
+footer .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    margin: 50px 0 0 0;
+}
+footer .container .content .box{
+    width: 24%;
+    height: 200px;
+    margin: 1%;
+}
+footer .container .content .box h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+footer .container .content .box p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 14px/32px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: right;
+    font: normal normal normal 14px/32px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #B3B3B3;
+    opacity: 1;
+}
+footer .container .content .box ul li{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 14px/32px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: right;
+    font: normal normal normal 14px/32px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #B3B3B3;
+    opacity: 1;
+}
+footer .foot{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/23px var(--unnamed-font-family-ff-shamel-family-sans-one);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 12px/23px FF Shamel Family Sans One;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    footer .container nav ul{
+        display: none;
+    }
+    footer .container .content{
+        flex-direction: column;
+    }
+    footer .container .content .box{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+    }
+}
+@media only screen and (min-width: 600px) {
+    footer .container nav ul{
+        display: none;
+    }
+    footer .container .content{
+        flex-direction: column;
+    }
+    footer .container .content .box{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    footer .container nav ul{
+        display: none;
+    }
+    footer .container .content{
+        flex-direction: row;
+        flex-flow: row wrap ;
+    }
+    footer .container .content .box{
+        width: 50%;
+        text-align: right;
+        margin: 30px 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    footer .container nav ul{
+        display: none;
+    }
+    footer .container .content{
+        flex-direction: row;
+        flex-flow: row wrap ;
+    }
+    footer .container .content .box{
+        width: 23%;
+        text-align: right;
+        margin: 1%;
+    }
+}
